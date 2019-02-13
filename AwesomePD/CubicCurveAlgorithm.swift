@@ -9,7 +9,7 @@
 // Modified for Swift 3.0 by: https://github.com/jcole/Bezier/tree/update-to-swift-3
 
 import Foundation
-import UIKit
+import QuartzCore
 
 struct CubicCurveSegment
 {

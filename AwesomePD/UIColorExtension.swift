@@ -7,7 +7,14 @@
 //
 
 import Foundation
+
+// Frameworks
+import QuartzCore
+#if os(OSX)
+import Cocoa
+#else
 import UIKit
+#endif
 
 extension UIColor {
 

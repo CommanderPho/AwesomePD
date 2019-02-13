@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import UIKit
+import QuartzCore
 
 struct DoublePoint {
   var x: Double = 0.0

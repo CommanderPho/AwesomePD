@@ -25,7 +25,19 @@
 		1FE06B1A1E661B5200B9C068 /* DataConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE06B191E661B5200B9C068 /* DataConversion.swift */; };
 		1FE06B1C1E6624E700B9C068 /* ChartLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE06B1B1E6624E700B9C068 /* ChartLib.swift */; };
 		1FE06B1E1E69DBD500B9C068 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE06B1D1E69DBD500B9C068 /* UIColorExtension.swift */; };
+		472346844C7692BE1740A20F /* Pods_AwesomePD_MacOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D34206116833241B4B0C1C78 /* Pods_AwesomePD_MacOS.framework */; };
 		A1FB528D078072CAE4448DD0 /* Pods_AwesomePD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A23FCF5DFB6112459A173A8 /* Pods_AwesomePD.framework */; };
+		D756C0C52213980300D484E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D756C0C42213980300D484E0 /* AppDelegate.swift */; };
+		D756C0C72213980300D484E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D756C0C62213980300D484E0 /* ViewController.swift */; };
+		D756C0C92213980400D484E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D756C0C82213980400D484E0 /* Assets.xcassets */; };
+		D756C0CC2213980400D484E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D756C0CA2213980400D484E0 /* Main.storyboard */; };
+		D756C0D22213983F00D484E0 /* DataConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE06B191E661B5200B9C068 /* DataConversion.swift */; };
+		D756C0D32213989700D484E0 /* SmoothLinePoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE06B171E660D9C00B9C068 /* SmoothLinePoints.swift */; };
+		D756C0D4221398AD00D484E0 /* CubicCurveAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE06B141E660C1900B9C068 /* CubicCurveAlgorithm.swift */; };
+		D756C0D5221398C600D484E0 /* TimeFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3B75771E7055FE00A555D0 /* TimeFormatter.swift */; };
+		D756C0D622139A0500D484E0 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE06B1D1E69DBD500B9C068 /* UIColorExtension.swift */; };
+		D756C0D722139A6300D484E0 /* ChartLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE06B1B1E6624E700B9C068 /* ChartLib.swift */; };
+		D756C0D822139A7900D484E0 /* Pill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC21C4B1E5F5626006FB8D4 /* Pill.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,8 +73,18 @@
 		1FE06B191E661B5200B9C068 /* DataConversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataConversion.swift; sourceTree = "<group>"; };
 		1FE06B1B1E6624E700B9C068 /* ChartLib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartLib.swift; sourceTree = "<group>"; };
 		1FE06B1D1E69DBD500B9C068 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		28E0BD299BC40BE8D52D1F71 /* Pods-AwesomePD_MacOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomePD_MacOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-AwesomePD_MacOS/Pods-AwesomePD_MacOS.release.xcconfig"; sourceTree = "<group>"; };
 		9A23FCF5DFB6112459A173A8 /* Pods_AwesomePD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwesomePD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A87589D1153773694447DBD5 /* Pods-AwesomePD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomePD.release.xcconfig"; path = "Pods/Target Support Files/Pods-AwesomePD/Pods-AwesomePD.release.xcconfig"; sourceTree = "<group>"; };
+		D34206116833241B4B0C1C78 /* Pods_AwesomePD_MacOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwesomePD_MacOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D756C0C22213980200D484E0 /* AwesomePD_MacOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AwesomePD_MacOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D756C0C42213980300D484E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D756C0C62213980300D484E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D756C0C82213980400D484E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D756C0CB2213980400D484E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D756C0CD2213980400D484E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D756C0CE2213980400D484E0 /* AwesomePD_MacOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AwesomePD_MacOS.entitlements; sourceTree = "<group>"; };
+		DD9A1415A4435402685EC2C5 /* Pods-AwesomePD_MacOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomePD_MacOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AwesomePD_MacOS/Pods-AwesomePD_MacOS.debug.xcconfig"; sourceTree = "<group>"; };
 		EDD82D494ABDEF462C7A8220 /* Pods-AwesomePD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomePD.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AwesomePD/Pods-AwesomePD.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,6 +101,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1FB528D078072CAE4448DD0 /* Pods_AwesomePD.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D756C0BF2213980200D484E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				472346844C7692BE1740A20F /* Pods_AwesomePD_MacOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +129,7 @@
 			children = (
 				1F6352FC1E5E064D00BD1800 /* AwesomePD */,
 				1F4415991E6DC4F200D84EED /* AwesomePDTests */,
+				D756C0C32213980300D484E0 /* AwesomePD_MacOS */,
 				1F6352FB1E5E064D00BD1800 /* Products */,
 				EEC3B2F523BCB31471C953F7 /* Pods */,
 				DC53523A9CC29F068019F211 /* Frameworks */,
@@ -110,6 +141,7 @@
 			children = (
 				1F6352FA1E5E064D00BD1800 /* AwesomePD.app */,
 				1F4415981E6DC4F100D84EED /* AwesomePDTests.xctest */,
+				D756C0C22213980200D484E0 /* AwesomePD_MacOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -187,10 +219,24 @@
 			name = Lib;
 			sourceTree = "<group>";
 		};
+		D756C0C32213980300D484E0 /* AwesomePD_MacOS */ = {
+			isa = PBXGroup;
+			children = (
+				D756C0C42213980300D484E0 /* AppDelegate.swift */,
+				D756C0C62213980300D484E0 /* ViewController.swift */,
+				D756C0C82213980400D484E0 /* Assets.xcassets */,
+				D756C0CA2213980400D484E0 /* Main.storyboard */,
+				D756C0CD2213980400D484E0 /* Info.plist */,
+				D756C0CE2213980400D484E0 /* AwesomePD_MacOS.entitlements */,
+			);
+			path = AwesomePD_MacOS;
+			sourceTree = "<group>";
+		};
 		DC53523A9CC29F068019F211 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				9A23FCF5DFB6112459A173A8 /* Pods_AwesomePD.framework */,
+				D34206116833241B4B0C1C78 /* Pods_AwesomePD_MacOS.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -200,6 +246,8 @@
 			children = (
 				EDD82D494ABDEF462C7A8220 /* Pods-AwesomePD.debug.xcconfig */,
 				A87589D1153773694447DBD5 /* Pods-AwesomePD.release.xcconfig */,
+				DD9A1415A4435402685EC2C5 /* Pods-AwesomePD_MacOS.debug.xcconfig */,
+				28E0BD299BC40BE8D52D1F71 /* Pods-AwesomePD_MacOS.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -244,13 +292,32 @@
 			productReference = 1F6352FA1E5E064D00BD1800 /* AwesomePD.app */;
 			productType = "com.apple.product-type.application";
 		};
+		D756C0C12213980200D484E0 /* AwesomePD_MacOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D756C0CF2213980400D484E0 /* Build configuration list for PBXNativeTarget "AwesomePD_MacOS" */;
+			buildPhases = (
+				F74E86A48C769F92D56CDF7C /* [CP] Check Pods Manifest.lock */,
+				D756C0BE2213980200D484E0 /* Sources */,
+				D756C0BF2213980200D484E0 /* Frameworks */,
+				D756C0C02213980200D484E0 /* Resources */,
+				A495B9F4BC440873F1EA3513 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AwesomePD_MacOS;
+			productName = AwesomePD_MacOS;
+			productReference = D756C0C22213980200D484E0 /* AwesomePD_MacOS.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		1F6352F21E5E064D00BD1800 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0820;
+				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Team Awesome";
 				TargetAttributes = {
@@ -262,6 +329,11 @@
 					};
 					1F6352F91E5E064D00BD1800 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = GQLSSCX5D8;
+						ProvisioningStyle = Automatic;
+					};
+					D756C0C12213980200D484E0 = {
+						CreatedOnToolsVersion = 10.1;
 						DevelopmentTeam = GQLSSCX5D8;
 						ProvisioningStyle = Automatic;
 					};
@@ -282,6 +354,7 @@
 			targets = (
 				1F6352F91E5E064D00BD1800 /* AwesomePD */,
 				1F4415971E6DC4F100D84EED /* AwesomePDTests */,
+				D756C0C12213980200D484E0 /* AwesomePD_MacOS */,
 			);
 		};
 /* End PBXProject section */
@@ -304,6 +377,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D756C0C02213980200D484E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D756C0C92213980400D484E0 /* Assets.xcassets in Resources */,
+				D756C0CC2213980400D484E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -314,8 +396,8 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-AwesomePD/Pods-AwesomePD-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
-				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts-iOS/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit-iOS/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -325,6 +407,30 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AwesomePD/Pods-AwesomePD-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A495B9F4BC440873F1EA3513 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AwesomePD_MacOS/Pods-AwesomePD_MacOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts-macOS/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit-macOS/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AwesomePD_MacOS/Pods-AwesomePD_MacOS-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B310892AC15BE0CA74D100CE /* [CP] Check Pods Manifest.lock */ = {
@@ -339,6 +445,28 @@
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-AwesomePD-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F74E86A48C769F92D56CDF7C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AwesomePD_MacOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -377,6 +505,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D756C0BE2213980200D484E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D756C0D4221398AD00D484E0 /* CubicCurveAlgorithm.swift in Sources */,
+				D756C0D622139A0500D484E0 /* UIColorExtension.swift in Sources */,
+				D756C0D722139A6300D484E0 /* ChartLib.swift in Sources */,
+				D756C0D5221398C600D484E0 /* TimeFormatter.swift in Sources */,
+				D756C0D32213989700D484E0 /* SmoothLinePoints.swift in Sources */,
+				D756C0D22213983F00D484E0 /* DataConversion.swift in Sources */,
+				D756C0D822139A7900D484E0 /* Pill.swift in Sources */,
+				D756C0C72213980300D484E0 /* ViewController.swift in Sources */,
+				D756C0C52213980300D484E0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -402,6 +546,14 @@
 				1F6353071E5E064D00BD1800 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D756C0CA2213980400D484E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D756C0CB2213980400D484E0 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -556,6 +708,75 @@
 			};
 			name = Release;
 		};
+		D756C0D02213980400D484E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD9A1415A4435402685EC2C5 /* Pods-AwesomePD_MacOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = AwesomePD_MacOS/AwesomePD_MacOS.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = GQLSSCX5D8;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = AwesomePD_MacOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.hale.pho.AwesomePD-MacOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D756C0D12213980400D484E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28E0BD299BC40BE8D52D1F71 /* Pods-AwesomePD_MacOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = AwesomePD_MacOS/AwesomePD_MacOS.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = GQLSSCX5D8;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = AwesomePD_MacOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.hale.pho.AwesomePD-MacOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -582,6 +803,15 @@
 			buildConfigurations = (
 				1F63530D1E5E064D00BD1800 /* Debug */,
 				1F63530E1E5E064D00BD1800 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D756C0CF2213980400D484E0 /* Build configuration list for PBXNativeTarget "AwesomePD_MacOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D756C0D02213980400D484E0 /* Debug */,
+				D756C0D12213980400D484E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
