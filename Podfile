@@ -9,3 +9,13 @@ target 'AwesomePD' do
   pod 'Charts', '~> 3.0.1'
   pod 'SnapKit', '~> 3.2.0'
 end
+
+
+target 'AwesomePD_MacOS' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for AwesomePD
+  pod 'Charts', '~> 3.0.1'
+  pod 'SnapKit', '~> 3.2.0'
+end
